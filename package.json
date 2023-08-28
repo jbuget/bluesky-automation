@@ -1,0 +1,41 @@
+{
+  "name": "bluesky-automation",
+  "version": "1.0.0",
+  "description": "A sandbox prooject to explore BlueSky automation",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "npm run build && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuget/bluesky-automation.git"
+  },
+  "keywords": [
+    "bluesky",
+    "automation",
+    "api"
+  ],
+  "author": "Jérémy Buget <contact@jbuget.fr>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jbuget/bluesky-automation/issues"
+  },
+  "homepage": "https://github.com/jbuget/bluesky-automation#readme",
+  "dependencies": {
+    "@atproto/api": "^0.6.6",
+    "airtable": "^0.12.2",
+    "dotenv": "^16.3.1",
+    "masto": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": "^16 || ^18"
+  },
+  "type": "module"
+}
